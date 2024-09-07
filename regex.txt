@@ -1,0 +1,9 @@
+- VN Phone: (03|05|07|08|09|01[2|689])+(\d{8})\b
+
+- Email @gmail.com: ^[a-z0-9](?:[.\\-_]?[a-z0-9]){0,28}[a-z0-9]@gmail\\.com$
+
+- Password: ^(?=.*[A-Z])(?=.*[a-z])(?=.*\d)(?=.*[!@#$%^&*()_+\-=\[\]{};:"\\|,.<>/?])(?!.*\s).{10,64}$
+
+- Tham số chỉ cho nhập ký tự chữ không dấu, không khoảng trắng, số và các ký tự đặc biệt là gạch dưới, gạch ngang, gạch dọc: [\w-]+
+
+
